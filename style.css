@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Poppins", "Roboto" sans-serif;
+}
+
+body {
+    background-image: url("assets/images/v1016-b-09.jpg");
+}
+
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #232930;
+
+}
+
+:root {
+    --button-color-primary: #7C42C4;
+    --button-color-secondary: #3FB950;
+    --button-color-tertiary: #33B3AE;
+    --button-color-last: #F778BA;
+
+}
+
+:root {
+    --primary-text-color: #fff;
+    --secondary-text-color: #000;
+    --tertiary-text-color: unset;
+    --pera-color:#848D97;
+}
+
+
+h1 {
+    font-size: 2.825rem;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1.2rem;
+    padding: 1.342rem;
+    color: var(--primary-text-color);
+}
+
+h2 {
+    font-size: 2.352rem;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1rem;
+    padding: 1.12rem;
+    color: var(--primary-text-color);
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 0.85rem;
+    padding: 1rem;
+    color: var(--primary-text-color);
+}
+
+h4 {
+    font-size: 1.865rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 0.85rem;
+    padding: 1rem;
+    color: var(--primary-text-color);
+}
+
+p {
+    font-size: 1.5rem;
+
+}
+
+a {
+    text-decoration: none;
+}
